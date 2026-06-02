@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Vasquez · Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">daniel.dev</div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section id="home" class="snap-section">
+      <div class="hero">
+        <div class="hero-text">
+          <small>&lt; Welcome to my page /&gt;</small>
+          <h1>Frontend <span class="grey">Developer</span></h1>
+          <p class="subtitle">Junior Programmer _</p>
+          <p>Estudiante de Sistemas Microinformáticos y Redes en Bemen-3. Apasionado por la informática, organizado y con facilidad para tratar con la gente.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>Networks</span>
+          </div>
+          <p class="hero-actions">
+            &gt; Available for internships<br>
+            &gt; Based in Barcelona &amp; learning Cybersecurity
+          </p>
+        </div>
+
+        <!-- Tarjeta colgante arrastrable -->
+        <div class="id-card-wrap" id="cardWrap">
+          <div class="lanyard" id="lanyard">
+            <div class="lanyard-strap">
+              <span>DANIEL VASQUEZ · PORTFOLIO · DANIEL VASQUEZ · PORTFOLIO ·</span>
+            </div>
+            <div class="lanyard-clip"></div>
+          </div>
+          <div class="id-card" id="idCard">
+            <img src="img/profile.jpeg" alt="Foto de Daniel Vasquez">
+            <div class="id-card-info">
+              <strong>Daniel Vasquez</strong>
+              <span>Frontend · Junior</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="snap-section">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">A short technical biography</p>
+      <div class="about-grid">
+        <div class="about-photo">
+          <video src="videos/About%20Me.mp4" controls poster="img/profile.jpeg"></video>
+        </div>
+        <div class="about-text">
+          <p>Hello! My name is <strong>Gabriel Daniel Vasquez Hinojosa</strong>. Born in Barcelona on 09/09/2004, with Spanish and Bolivian nationality.</p>
+          <p>Student of <strong>Microcomputer Systems and Networks (SMIX)</strong> at Bemen-3. Responsible, punctual and organized, with attention to detail.</p>
+          <p>I work well with others, stay calm under pressure, and learn new tools quickly. My goal is to study <strong>Cybersecurity</strong> in the future.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section id="cv" class="snap-section">
+      <h2 class="section-title">Currículum Vitae</h2>
+      <p class="section-subtitle">Formación, experiencia y habilidades</p>
+      <div class="cv-grid">
+        <aside class="cv-side">
+          <h3>Datos personales</h3>
+          <p>Daniel Vasquez<br>Barcelona, España<br><span>(+34) 634 476 619</span><br>dv619116@gmail.com</p>
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Castellano — nativo</li>
+            <li>Catalán — nativo</li>
+            <li>Inglés — B1</li>
+          </ul>
+          <h3>Habilidades</h3>
+          <ul>
+            <li>Buena comunicación</li>
+            <li>Capacidad de aprendizaje</li>
+            <li>Organización y puntualidad</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+          <div class="download-row">
+            <a class="btn" href="img/cv.pdf" target="_blank" rel="noopener">Ver / Descargar CV</a>
+            <a class="btn btn-outline" href="img/europass.pdf" target="_blank" rel="noopener">Ver / Descargar Europass</a>
+          </div>
+        </aside>
+        <div class="cv-main-box">
+          <h3>Formación</h3>
+          <div class="timeline-item">
+            <h4>Grado Medio SMIX</h4>
+            <small>Bemen-3, Barcelona · 2025 – Actualidad</small>
+            <p>Hardware, redes, sistemas operativos y desarrollo web.</p>
+          </div>
+          <div class="timeline-item">
+            <h4>ESO</h4>
+            <small>Institut Caterina Albert · 2018 – 2022</small>
+          </div>
+          <h3>Experiencia</h3>
+          <div class="timeline-item">
+            <h4>Informador — Gala dels Goya 2026</h4>
+            <small>Academia de Cinematografía · Feb – Mar 2026</small>
+            <p>Atención a invitados, gestión de traslados y acreditaciones.</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Vigilante de parking</h4>
+            <small>SISVI · Agosto 2025</small>
+            <p>Control de accesos y vigilancia general.</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Operario de reformas</h4>
+            <small>Todo Reformas · Veranos 2023 – 2025</small>
+            <p>Demolición, fontanería, electricidad y pintura.</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Camarero</h4>
+            <small>Las Palmeras · Junio 2024</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section id="portfolio" class="snap-section">
+      <h2 class="section-title">Portfolio Showcase</h2>
+      <p class="section-subtitle">Proyectos</p>
+      <div class="tabs">
+        <a href="#projects" class="active">Projects</a>
+      </div>
+      <h3 id="projects" class="sub-h">Projects</h3>
+      <div class="cards">
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-web.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>Diseño Web</h3><p>Portfolio HTML5 + CSS3 (Flexbox y Grid).</p><a class="btn" href="https://gdvasquez-io.github.io/-Lloc-Web-de-Venda/" target="_blank">Ver proyecto</a></div>
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-pc.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>Montaje y mantenimiento</h3><p>Ensamblaje completo y diagnóstico.</p><a class="btn" href="https://gdvasquez-io.github.io/Formulari-Web/" target="_blank">Ver proyecto</a></div>
+        <div class="card"><div style="height: 140px; border-radius: 14px; margin-bottom: 14px; overflow: hidden; border: 1px solid #222;"><video src="videos/networking-video.mp4" controls style="width: 100%; height: 100%; object-fit: cover;"></video></div><h3>Redes locales</h3><p>Simulación LAN con Cisco Packet Tracer.</p><a class="btn" href="videos/networking-video.mp4" target="_blank">Ver video</a></div>
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-os.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>Sistemas Operativos</h3><p>Instalación y particionado.</p></div>
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-media.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>Edición multimedia</h3><p>Captura y edición de vídeo.</p></div>
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-cv.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>CV y habilidades</h3><p>Currículum y presentación personal.</p></div>
+        <div class="card"><div class="card-thumb" style="padding: 0; overflow: hidden;"><img src="img/project-mario.png" style="width: 100%; height: 100%; object-fit: cover;"></div><h3>Blog Mario Universe</h3><p>Proyecto de blog temático en inglés.</p><a class="btn" href="https://gdvasquez-io.github.io/blog-mario-univers/" target="_blank">Ver proyecto</a></div>
+      </div>
+
+    </section>
+
+    <!-- ============ VIDEO ============ -->
+    <section id="video" class="snap-section">
+      <h2 class="section-title">Video del Portal</h2>
+      <p class="section-subtitle">Pitch profesional sobre el portfolio</p>
+      <div class="video-container">
+        <video controls poster="img/profile.jpeg">
+          <source src="img/portal-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="snap-section">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">¿Una idea, prácticas o colaborar? Escríbeme.</p>
+      <div class="contact-grid">
+        <div class="contact-box">
+          <h3>Hubungi Saya</h3>
+          <p class="desc">Barcelona, España.</p>
+          <div class="social">
+            <a href="mailto:dv619116@gmail.com">Email <span>→</span></a>
+            <span class="phone-row"><span>+34 634 476 619</span></span>
+            <a href="https://github.com/gdvasquez-io" target="_blank">GitHub <span>→</span></a>
+            <a href="https://www.linkedin.com/in/gdvasquez" target="_blank">LinkedIn <span>→</span></a>
+          </div>
+        </div>
+        <form class="contact-box" action="mailto:dv619116@gmail.com" method="post" enctype="text/plain">
+          <h3>Comments</h3>
+          <p class="desc">Envíame un mensaje.</p>
+          <input type="text" name="nombre" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="mensaje" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Daniel Vasquez · Portfolio personal</footer>
+
+
+</body>
+</html>
