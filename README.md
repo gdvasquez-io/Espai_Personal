@@ -24,27 +24,28 @@ M'he centrat a crear una interfície moderna i tecnològica que transmeti una im
 
 📂 Espai_Personal
  ┣ 📂 css
- ┃ ┗ 📄 styles.css                      # Estils generals, variables de color i disseny adaptat
+ ┃ ┗ 📄 styles.css                  # Estils generals, variables CSS i disseny adaptat
+ ┣ 📂 doc
+ ┃ ┣ 📄 cv.pdf                      # Currículum Vitae clàssic per a descàrrega
+ ┃ ┣ 📄 europass.pdf                # Currículum Vitae Europass en format oficial
+ ┃ ┣ 📄 M0223_P2_Vásquez_Daniel.pdf # Projecte d'aula de l'assignatura d'Ofimàtica
+ ┃ ┗ 📄 T4A1 - Vásquez, Daniel.pdf  # Projecte pràctic del sistema operatiu
  ┣ 📂 img
- ┃ ┣ 📄 cv.pdf                          # Currículum Vitae clàssic per a descàrrega
- ┃ ┣ 📄 europass.pdf                    # Currículum Vitae Europass per a descàrrega
- ┃ ┣ 📄 Diseño_web.jpg                  # Portada del projecte de disseny de pàgina web
- ┃ ┣ 📄 Inicial.jpg                     # Imatge/Foto de perfil principal de Daniel Vasquez
- ┃ ┣ 📄 M0223_P2_Vásquez_Daniel.pdf     # Document/Projecte de pràctiques d'ofimàtica
- ┃ ┣ 📄 ofimatica.jpg                   # Recurs gràfic per a la targeta d'ofimàtica
- ┃ ┣ 📄 portada_blog.jpg                # Recurs gràfic de portada del projecte de blog
- ┃ ┣ 📄 project-os.png                  # Portada de la targeta de Sistemes Operatius
- ┃ ┣ 📄 project-pc.png                  # Portada de la targeta de Muntatge i Manteniment de PC
- ┃ ┣ 📄 T4A1 - Vásquez, Daniel.pdf      # Document/Projecte de pràctiques de Sistemes Operatius
- ┃ ┗ 📄 daniel.png                      # Recurs visual de perfil secundari
+ ┃ ┣ 📄 Diseño_web.jpg              # Imatge de portada del projecte de disseny web
+ ┃ ┣ 📄 Inicial.jpg                 # Fotografia professional de perfil principal
+ ┃ ┣ 📄 daniel.png                  # Recurs visual de perfil secundari
+ ┃ ┣ 📄 ofimatica.jpg               # Element gràfic de la targeta d'ofimàtica
+ ┃ ┣ 📄 portada_blog.jpg            # Imatge de presentació del projecte de blog
+ ┃ ┣ 📄 project-os.png              # Miniatura per al projecte de Sistemes Operatius
+ ┃ ┗ 📄 project-pc.png              # Miniatura per al projecte de Muntatge i Manteniment
  ┣ 📂 js
- ┃ ┗ 📄 cursor.js                       # Codi de l'animació interactiva del cursor (Canvas)
+ ┃ ┗ 📄 cursor.js                   # Lògica de l'efecte de partícules interactiu (Canvas)
  ┣ 📂 videos
- ┃ ┣ 📄 About.mp4                       # Vídeo biogràfic curt presentat a la secció "About Me"
- ┃ ┣ 📄 Surf.mp4                        # Vídeo utilitzat en el projecte d'Edició multimèdia
- ┃ ┣ 📄 Vídeo del Portal.mp4            # Vídeo del pitch explicatiu general del portafoli
- ┃ ┗ 📄 networking-video.mp4           # Vídeo demostratiu del muntatge i crimpat de xarxes
- ┣ 📄 .gitattributes                    # Configuració dels atributs i gestió de fitxers Git
- ┣ 📄 README.md                         # Documentació del projecte (aquest fitxer)
- ┣ 📄 europass.html                     # Maquetació del CV alternatiu en format oficial Europass
- ┗ 📄 index.html                        # Pàgina d'entrada principal del portafoli de Daniel Vasquez
+ ┃ ┣ 📄 About.mp4                   # Vídeo biogràfic curt presentat a "About Me"
+ ┃ ┣ 📄 Surf.mp4                    # Clip multimèdia utilitzat com a recurs d'edició
+ ┃ ┣ 📄 Vídeo del Portal.mp4        # Vídeo pitch explicatiu de l'espai web personal
+ ┃ ┗ 📄 networking-video.mp4        # Demostració pràctica de cablejat i crimpat
+ ┣ 📄 .gitattributes                # Configuració i gestió dels atributs de fitxers a Git
+ ┣ 📄 README.md                     # Documentació tècnica del projecte (aquest fitxer)
+ ┣ 📄 europass.html                 # Maquetació del CV alternatiu sota l'estàndard Europass
+ ┗ 📄 index.html                    # Pàgina d'accés principal de l'espai web
